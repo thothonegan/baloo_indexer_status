@@ -2,7 +2,7 @@
 Simple script that shows baloo's indexer status as a kdialog
 
 Usage:
-./baloo_index_status.sh
+./baloo_index_status.sh & disown
 
 Requires (KDE5):
 - kdialog

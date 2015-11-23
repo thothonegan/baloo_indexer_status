@@ -4,7 +4,7 @@
 DELAY_TIME=10
 
 # first pass
-dbusRef=`kdialog --title "Baloo Status" --progressbar 'Connecting to baloo' 0`
+dbusRef=`kdialog --icon baloo --title "Baloo Status" --progressbar 'Connecting to baloo' 0`
 
 while true; do
 	orig=`balooctl status | head -n 3`
